@@ -1,13 +1,18 @@
 # Site settings
-title: sturdyegg Step
+title: SturdyEgg
+header-img: img/home-bg.jpg
 email: sturdyegg@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/step" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+description: "Write your site description here. It will be used as your sites meta description as well!"
+baseurl: /step
+url: "http://yourdomain.com"
 github_username: deplax
+mini-title: SturdyEgg
+
+
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
