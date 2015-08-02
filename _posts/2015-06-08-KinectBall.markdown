@@ -1,24 +1,36 @@
 ---
 layout:     post
-title:      "포코팡 게임을 컴퓨터에게 맡겨보았다."
-subtitle:   "[JAVA] [AWT]"
-date:       2015-03-03 12:00:00
+title:      "KinectBall"
+subtitle:   "[KINECT] [JAVA] [PROCESSING]"
+date:       2015-06-08 12:00:00
 author:     "SturdyEgg"
 header-img: "img/post-bg-06.jpg"
 ---
  
+ <!-- **[Github Link](https://github.com/deplax/)** -->
 
 #Summary
 
-|**Project name :** POCO
-|**Language :** Java
+|**Project name :** SteakHouse
+|**Language :** VisualBasic
 |**Type of project :** Personal project
-|**Source code :** **[Github Link](https://github.com/deplax/)**
+|**Project duration :** 1 month
+|**Source code :** <a href="https://github.com/deplax/" style="color:#3366FF; font-weight:bold">Github Link</a>
 
 ####Brief Description <br>
 한붓그리기 모바일 게임을 블럭을 인지하여 자동으로 풀었다.
 
 <br/>
+
+
+#Description
+
+Treenod에서 개발한 *포코팡*이라는 게임이 있다. 한붓그리기 방식으로 같은 색상의 블럭을 많이, 빠르게 이어 블럭을 제거하는 게임이다. 난 게임을 잘 하지 못했고 대신 컴퓨터에게 이 게임을 가르치기로 했다. 실시간으로 블럭의 색상을 감지하여 최적의 길을 찾아 블럭을 제거하며, 필요한 시기에 아이템을 발동하도록 코딩하였다.
+
+Java라는 언어에 대해 들어보기만 한 상태에서 Java SDK sample source와 메모장, cmd 만을 가지고 자바를 습득했다. 사정이 있어 인터넷도 되지 않는 로컬환경에서 IDE도 없이 항상 고민했다.
+
+<br/><br/>
+
 
 #Postmortem
 
@@ -47,11 +59,6 @@ header-img: "img/post-bg-06.jpg"
 <br/><br/>
 
 
-#Description
-
-Treenod에서 개발한 *포코팡*이라는 게임이 있다. 한붓그리기 방식으로 같은 색상의 블럭을 많이, 빠르게 이어 블럭을 제거하는 게임이다. 난 게임을 잘 하지 못했고 대신 컴퓨터에게 이 게임을 가르치기로 했다. 실시간으로 블럭의 색상을 감지하여 최적의 길을 찾아 블럭을 제거하며, 필요한 시기에 아이템을 발동하도록 코딩하였다.
-
-Java라는 언어에 대해 들어보기만 한 상태에서 Java SDK sample source와 메모장, cmd 만을 가지고 자바를 습득했다. 사정이 있어 인터넷도 되지 않는 로컬환경에서 IDE도 없이 항상 고민했다.
-
+#Screenshot
 
 <img src="{{ site.baseurl }}/img/post-sample-image.jpg" width="50%" alt="Post Sample Image" style="text-align: center">
