@@ -15,7 +15,7 @@ header-img: "img/post_poco/title.jpg"
 |**Language :** Java
 |**Type of project :** Personal project
 |**Project duration :** 2 week
-|**Source code :** <a href="https://github.com/deplax/" style="color:#3366FF; font-weight:bold">Github Link</a>
+|**Source code :** <a href="https://github.com/deplax/P_Poco" style="color:#3366FF; font-weight:bold">Github Link</a>
 
 ####Brief Description <br>
 한붓그리기 모바일 게임을 블럭을 인지하여 자동으로 풀었다.
@@ -54,11 +54,4 @@ Java라는 언어에 대해 들어보기만 한 상태에서 Java SDK sample sou
 
 
 #Preview video
-<iframe src="https://www.youtube.com/embed/ouR4nn1G9r4" frameborder="0" allowfullscreen></iframe>
-
-<br/><br/>
-
-
-#Screenshot
-
-<img src="{{ site.baseurl }}/img/post-sample-image.jpg" width="50%" alt="Post Sample Image" style="text-align: center">
+<iframe src="https://www.youtube.com/embed/KgwcdsXPnfc" frameborder="0" allowfullscreen></iframe>

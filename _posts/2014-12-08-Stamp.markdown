@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "옥세를 만들어라!"
+title:      "옥새를 제작합니다."
 subtitle:   "[3DPRINT]"
 date:       2014-12-08 12:00:00
 author:     "SturdyEgg"
@@ -12,9 +12,9 @@ header-img: "img/post_stamp/title.jpg"
 #Summary
 
 |**Project name :** Stamp
-|**Language :** VisualBasic
+|**Language :** 3D-Max
 |**Type of project :** Personal project
-|**Project duration :** 1 month
+|**Project duration :** 3 day
 |**Source code :** <a href="https://github.com/deplax/" style="color:#3366FF; font-weight:bold">Github Link</a>
 
 ####Brief Description <br>

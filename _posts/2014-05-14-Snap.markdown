@@ -14,11 +14,11 @@ header-img: "img/post_snap/title.jpg"
 |**Project name :** Snap!!
 |**Language :** C#
 |**Type of project :** Personal project
-|**Project duration :** 1.5 week
+|**Project duration :** 2 week
 |**Source code :** <a href="https://github.com/deplax/" style="color:#3366FF; font-weight:bold">Github Link</a>
 
 ####Brief Description <br>
-한붓그리기 모바일 게임을 블럭을 인지하여 자동으로 풀었다.
+손목 스냅을 이용하여 PPT를 넘기는 프로그램.
 
 <br/>
 
@@ -54,7 +54,7 @@ Java라는 언어에 대해 들어보기만 한 상태에서 Java SDK sample sou
 
 
 #Preview video
-<iframe src="https://www.youtube.com/embed/ouR4nn1G9r4" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/lmHZLs11ado" frameborder="0" allowfullscreen></iframe>
 
 <br/><br/>
 

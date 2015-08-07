@@ -14,51 +14,36 @@ header-img: "img/post_steakhouse/post-title-steakhouse.jpg"
 |**Project name :** SteakHouse
 |**Language :** VisualBasic
 |**Type of project :** Personal project
-|**Project duration :** 1 month
-|**Source code :** <a href="https://github.com/deplax/" style="color:#3366FF; font-weight:bold">Github Link</a>
+|**Project duration :** 1.5 month
+|**Source code :** <a href="https://github.com/deplax/P_SteakHouse" style="color:#3366FF; font-weight:bold">Github Link</a>
 
 ####Brief Description <br>
-한붓그리기 모바일 게임을 블럭을 인지하여 자동으로 풀었다.
+기말고사로 매장 운영 프로그램을 작성하였다.
 
 <br/>
 
 
 #Description
 
-Treenod에서 개발한 *포코팡*이라는 게임이 있다. 한붓그리기 방식으로 같은 색상의 블럭을 많이, 빠르게 이어 블럭을 제거하는 게임이다. 난 게임을 잘 하지 못했고 대신 컴퓨터에게 이 게임을 가르치기로 했다. 실시간으로 블럭의 색상을 감지하여 최적의 길을 찾아 블럭을 제거하며, 필요한 시기에 아이템을 발동하도록 코딩하였다.
+기말과제로 Oralce DB와 VisualBasic을 사용하여 프로그램을 작성하게 되었다. 과제로 *스테이크 하우스* 라는 매장관리 프로그램을 선택하였고 매장의 테이블 자리에 따라 계산을 할 수 있으며 예약 기능, 재고관리 기능, 매출관리 기능을 넣고자 하였다.
 
-Java라는 언어에 대해 들어보기만 한 상태에서 Java SDK sample source와 메모장, cmd 만을 가지고 자바를 습득했다. 사정이 있어 인터넷도 되지 않는 로컬환경에서 IDE도 없이 항상 고민했다.
 
 <br/><br/>
 
 
 #Postmortem
+오래전에 작성한 프로그램으로 많은 기억이 없다.
 
 ####어려웠던 점
-* 사실 자바를 모른다.
-: 자바를 SDK안에 있는 sample source를 보고 배웠다. 사정이 있어 제한된 환경에서 메모장만으로 자바를 배우다가 개인 PC에서 처음으로 eclipse를 설치하고 자바를 사용할 수 있게 되어 즐거웠던 기억이 난다. source만 보고 키워드의 역할을 추론해서 배웠기에 사실 이 프로그램을 완성될 당시까지 new라는 키워드의 역할을 몰랐다.
-* 처음에는 사람보다 느렸다.
-: 내부에서 블럭을 풀어내는 알고리즘이 5번정도 크게 바뀌었다. 일단 블럭의 배치가 지그재그인 것부터 블럭에서 다른 블럭으로의 접근이 6곳이라는 점이 상황을 난감하게 만들었다. 작동하는 부분에만 신경쓰다보니 처음 작동한 프로그램은 사람이 푸는 것보다 현저히 느렸다. 
-* 다른 프로그램에 의존
-: 모바일 화면을 *Bluestack*이라는 프로그램을 통해 PC로 화면을 옮겨 그 화면을 인식하는 방식으로 작성하였다. 따라서 이 프로그램에 의존적일 수 밖에 없었다.
+* 깐깐한 오라클
+: DB관련 프로그램을 처음 접해보았다. 안 그래도 버거운데 깐깐한 오라클은 여기저기 태클을 걸었고, 그저 테이블을 지우고 싶을 뿐인데도 권한 문제가 많아 테이블이 꼬이면 그냥 전체를 강제삭제 후 SQL을 새로 돌렸다.
 
 ####잘된 점.
-* 6방향을 한 붓그리기로 어떻게 그릴까?
-: 배열을 사용하였으나 어떻게 하면 한 붓그리기를 할까? 고민이 많았다. 배열의 순회를 따로 처리하여 이 문제를 해결할 수 있었다.
-* 개선, 개선, 개선
-: 사람보다 느린 컴퓨터의 문제풀이는 내부 알고리즘을 3번째로 크게 뒤엎었을 때 해결되었다. 자바라는 언어자체가 생소한 단계에서 개선을 반복하여 처음의 목표를 뛰어넘어 달성하였다.
-* 나름대로의 매커니즘
-: 내 나름대로의 논리를 내 나름대로 코드로 옮기는 과정이 반복되었다. '어떻게 이 블럭이 무슨 색상인지 인식 할 수 있을까?' 그저 색만 추출하면 같은 블럭으로 인식될 줄 알았지만 1 pixel을 가져왔을 때 언제나 같은 색상이 잡히지 않았다. 한 블럭에서 5개의 색상을 추출하여 어느 색상의 블록인지 감지하도록 하였다.
+* 스킨까지 마무리
+: 프로그램 명세가 복잡한 것은 아니었으나 처음 접하는 프로그래밍으로 여기저기에서 해매었다. 하지만 기간내에 원하는 기능은 대부분 구현되었으며 VB6.0 특유의 투박한 모습이 싫어 스킨까지 받아 적용하여 마무리하였다. 처음 작성한 프로그램 치고는 예쁘장한 모습에 기분이 좋았다.
 
 <br/><br/>
 
 
 #Preview video
 <iframe src="https://www.youtube.com/embed/NbVyvecYoLc" frameborder="0" allowfullscreen></iframe>
-
-<br/><br/>
-
-
-#Screenshot
-
-<img src="{{ site.baseurl }}/img/post-sample-image.jpg" width="50%" alt="Post Sample Image" style="text-align: center">

@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "GoogleImageCrawl"
-subtitle:   "[PYTHON]"
+subtitle:   "[PYTHON] [SELENIUM]"
 date:       2015-03-10 12:00:00
 author:     "SturdyEgg"
 header-img: "img/post_googleimagecrawl/title.jpg"
@@ -54,7 +54,7 @@ Java라는 언어에 대해 들어보기만 한 상태에서 Java SDK sample sou
 
 
 #Preview video
-<iframe src="https://www.youtube.com/embed/ouR4nn1G9r4" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/dKWmSpWtsls" frameborder="0" allowfullscreen></iframe>
 
 <br/><br/>
 

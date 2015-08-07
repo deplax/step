@@ -12,22 +12,23 @@ header-img: "img/post_decal/title.jpg"
 #Summary
 
 |**Project name :** Decal
-|**Language :** Illustrator
+|**Program :** Illustrator
 |**Type of project :** Personal project
 |**Project duration :** 1 decal / 3 hour
-|**Source code :** <a href="https://github.com/deplax/" style="color:#3366FF; font-weight:bold">Github Link</a>
 
 ####Brief Description <br>
-한붓그리기 모바일 게임을 블럭을 인지하여 자동으로 풀었다.
+맥북에 붙이는 데칼(스티커)을 디자인하고 출력한다. NHN NEXT내부에서 디자인을 요청받아 제작, 무료배포하였으며 주로 시트지를 사용하여 작업한다.
 
 <br/>
 
 
 #Description
 
-Treenod에서 개발한 *포코팡*이라는 게임이 있다. 한붓그리기 방식으로 같은 색상의 블럭을 많이, 빠르게 이어 블럭을 제거하는 게임이다. 난 게임을 잘 하지 못했고 대신 컴퓨터에게 이 게임을 가르치기로 했다. 실시간으로 블럭의 색상을 감지하여 최적의 길을 찾아 블럭을 제거하며, 필요한 시기에 아이템을 발동하도록 코딩하였다.
+3D Object를 쉽게 제작하기 위해서 컷팅기를 구매하였으나, 생각보다 용도가 적합하지 못하여, 주로 데칼 제작에 사용하고 있다. 시트지를 한 번 구매하면 상당히 많은 양이 남아 보통 주변 사람들의 요청분까지 제작한다. 제작과정은 
 
-Java라는 언어에 대해 들어보기만 한 상태에서 Java SDK sample source와 메모장, cmd 만을 가지고 자바를 습득했다. 사정이 있어 인터넷도 되지 않는 로컬환경에서 IDE도 없이 항상 고민했다.
+스케치 -> 일러스트 펜 작업 -> 사이즈 작업 -> 판 일치
+
+순으로 이루어지며 컷팅기가 모든 작업을 해 줄 것이랑 생각했지만 생각보다 손이 많이간다. 종이 두께, 날의 상태, 시트지의 제질, 해상력 등을 고려하여 작업한다.
 
 <br/><br/>
 
@@ -35,30 +36,31 @@ Java라는 언어에 대해 들어보기만 한 상태에서 Java SDK sample sou
 #Postmortem
 
 ####어려웠던 점
-* 사실 자바를 모른다.
-: 자바를 SDK안에 있는 sample source를 보고 배웠다. 사정이 있어 제한된 환경에서 메모장만으로 자바를 배우다가 개인 PC에서 처음으로 eclipse를 설치하고 자바를 사용할 수 있게 되어 즐거웠던 기억이 난다. source만 보고 키워드의 역할을 추론해서 배웠기에 사실 이 프로그램을 완성될 당시까지 new라는 키워드의 역할을 몰랐다.
-* 처음에는 사람보다 느렸다.
-: 내부에서 블럭을 풀어내는 알고리즘이 5번정도 크게 바뀌었다. 일단 블럭의 배치가 지그재그인 것부터 블럭에서 다른 블럭으로의 접근이 6곳이라는 점이 상황을 난감하게 만들었다. 작동하는 부분에만 신경쓰다보니 처음 작동한 프로그램은 사람이 푸는 것보다 현저히 느렸다. 
-* 다른 프로그램에 의존
-: 모바일 화면을 *Bluestack*이라는 프로그램을 통해 PC로 화면을 옮겨 그 화면을 인식하는 방식으로 작성하였다. 따라서 이 프로그램에 의존적일 수 밖에 없었다.
+* 미묘한 시트지 두께
+: 시트지의 두께와 제질에 따라 출력물이 많이 달라진다. 시트지는 모두 같은 시트지로 알았으나 미묘하게 다른 점이 있었고 샘플이 흡족하게 나오기까지는 보통 두 번 시트지를 버린다.
+* 손이 많이간다.
+: 컷팅기라는 이름에 걸맞게 그저 컴퓨터로 그리기만 하면 뚝딱뚝딱 만들어 질 것이라 예상했다. 예상과는 다르게 컷팅할 부분을 일일이 펜툴로 따야 했으며 선이 중첩되거나 내가 사용할 면과 버릴 면을 잘 구분해야 했다.
 
 ####잘된 점.
-* 6방향을 한 붓그리기로 어떻게 그릴까?
-: 배열을 사용하였으나 어떻게 하면 한 붓그리기를 할까? 고민이 많았다. 배열의 순회를 따로 처리하여 이 문제를 해결할 수 있었다.
-* 개선, 개선, 개선
-: 사람보다 느린 컴퓨터의 문제풀이는 내부 알고리즘을 3번째로 크게 뒤엎었을 때 해결되었다. 자바라는 언어자체가 생소한 단계에서 개선을 반복하여 처음의 목표를 뛰어넘어 달성하였다.
-* 나름대로의 매커니즘
-: 내 나름대로의 논리를 내 나름대로 코드로 옮기는 과정이 반복되었다. '어떻게 이 블럭이 무슨 색상인지 인식 할 수 있을까?' 그저 색만 추출하면 같은 블럭으로 인식될 줄 알았지만 1 pixel을 가져왔을 때 언제나 같은 색상이 잡히지 않았다. 한 블럭에서 5개의 색상을 추출하여 어느 색상의 블록인지 감지하도록 하였다.
+* 쌓이고 있는 Preset
+: 종이의 질감과 두께에 민감했던 부분은 계속적인 실험을 통해 적당한 preset이 제작되었고 점차 이 문제는 고려 대상에서 멀어져 갔다.
+* 나만의 데칼
+: 직접 디자인한 데칼을 내가 원하는 주기로 새로 교체할 수 있다는 점은 생각보다 메리트가 있었다. 덩달아 주변 사람들도 얘기치 않게 맥북 스티커를 얻어 좋아하였고 정기적으로 대량출력을 하고 있다.
+
 
 <br/><br/>
 
 
-#Preview video
-<iframe src="https://www.youtube.com/embed/ouR4nn1G9r4" frameborder="0" allowfullscreen></iframe>
+#Photo
 
-<br/><br/>
+<img src="{{ site.baseurl }}/img/post_decal/01.jpg" width="100%" style="text-align: center">
 
+<img src="{{ site.baseurl }}/img/post_decal/02.jpg" width="100%" style="text-align: center">
 
-#Screenshot
+<img src="{{ site.baseurl }}/img/post_decal/03.jpg" width="100%" style="text-align: center">
 
-<img src="{{ site.baseurl }}/img/post-sample-image.jpg" width="50%" alt="Post Sample Image" style="text-align: center">
+<img src="{{ site.baseurl }}/img/post_decal/04.jpg" width="100%" style="text-align: center">
+
+<img src="{{ site.baseurl }}/img/post_decal/05.jpg" width="100%" style="text-align: center">
+
+<img src="{{ site.baseurl }}/img/post_decal/06.jpg" width="100%" style="text-align: center">
