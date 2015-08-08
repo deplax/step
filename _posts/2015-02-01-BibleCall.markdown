@@ -72,3 +72,9 @@ header-img: "img/post_biblecall/title.jpg"
 
 #Preview video
 <iframe src="https://www.youtube.com/embed/s7g1-5DzmNo" frameborder="0" allowfullscreen></iframe>
+
+<br/><br/>
+
+#Screenshot
+
+<img src="{{ site.baseurl }}/img/post_biblecall/01.png" width="100%" style="text-align: center">
