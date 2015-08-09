@@ -28,7 +28,7 @@ header-img: "img/post_march4/title.jpg"
 
 학기 프로젝트로 NHN NEXT 4학기의 HumanDesign Project과목에서 진행한 프로젝트이다.
 
-팀 내 역할 : server setting, spring setting, spring dummy code, front 빌딩객체 (drag & drop, 생성, 삭제, 배치), 팀원 시간관리
+팀 내 역할 : server setting, spring setting, spring dummy code, front 빌딩객체 (drag & drop, 생성, 삭제, 배치), 팀원 시간관리, Log
 
 <br/><br/>
 
