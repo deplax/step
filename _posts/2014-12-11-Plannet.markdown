@@ -88,12 +88,11 @@ server의 작성과 android 프로그래밍 모두 팀원 전원이 처음 접�
 
 <img src="{{ site.baseurl }}/img/post_plannet/01.png" width="45%" style="text-align: center; float: left; padding: 10px">
 
-<img src="{{ site.baseurl }}/img/post_plannet/02.png" width="45%" style="text-align: center; float: left; padding: 10px">
+<img src="{{ site.baseurl }}/img/post_plannet/02.png" width="45%" style="text-align: center; padding: 10px">
 
 <img src="{{ site.baseurl }}/img/post_plannet/03.png" width="45%" style="text-align: center; float: left; padding: 10px">
 
-<img src="{{ site.baseurl }}/img/post_plannet/04.png" width="45%" style="text-align: center; float: left; padding: 10px">
-<br>
+<img src="{{ site.baseurl }}/img/post_plannet/04.png" width="45%" style="text-align: center; padding: 10px">
 
 <img src="{{ site.baseurl }}/img/post_plannet/05.jpg" width="90%" style="text-align: center; padding: 10px">
 서비스의 메일 인증 성공 화면.
