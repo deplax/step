@@ -27,7 +27,7 @@ header-img: "img/bg-01.jpg"
 
 Library를 하나도 쓰지 않겠다고 선언하고 시작하였지만, 그렇게 되지 않고 있다... Blur와 FloodFill 2개 만들었을 뿐인데 생각보다 많은 시간소모가 이루어져 과정을 이해하고 라이브러리를 사용하게 되었다.
 
-http://jonathanpuckey.com/projects/delaunay-raster/ 이 사이트에 있는 사진처럼 예쁘게 추상화시켜주는 서비스를 만들고 싶었다. 사용자는 자신의 사진을 올리고 그 사진을 예쁘게 삼각형화 시켜주는 것이다. 사실 여기까지만 생각하고 뛰어들었는데 어디에서부터 어떻게 진행해야 할지 고민이 많았다. 진행의 초반에는 방법의 고민만이 계속되었다. 
+[http://jonathanpuckey.com/projects/delaunay-raster/](http://jonathanpuckey.com/projects/delaunay-raster/) 이 사이트에 있는 사진처럼 예쁘게 추상화시켜주는 서비스를 만들고 싶었다. 사용자는 자신의 사진을 올리고 그 사진을 예쁘게 삼각형화 시켜주는 것이다. 사실 여기까지만 생각하고 뛰어들었는데 어디에서부터 어떻게 진행해야 할지 고민이 많았다. 진행의 초반에는 방법의 고민만이 계속되었다. 
 
 Gaussian Blur -> Canny Edge -> SpaceDivideDot -> CircleFill Search -> Delaunay Triangulation -> Triangle Fill -> Anti-Aliasing
 
